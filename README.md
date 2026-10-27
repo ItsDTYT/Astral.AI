@@ -43,6 +43,8 @@ npm run astral:prepare-runner -- --backend cpu
 npm run astral:desktop
 ```
 
+The first desktop development launch downloads the pinned Electron runtime. Later launches reuse it. Dependency lifecycle scripts stay disabled; Astral runs the required preparation steps explicitly.
+
 For browser development, run `npm run astral:dev` and open http://127.0.0.1:8000. The /?legacy route opens the upstream SillyTavern interface.
 
 `npm run astral:package` builds the unsigned Windows installer, portable ZIP, source archive, and checksums into release/. It expects the CPU runner to be prepared first. GPU runners are not bundled.

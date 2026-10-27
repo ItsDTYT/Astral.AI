@@ -21,6 +21,10 @@ jobs:
           node-version: 22.23.2
           cache: npm
       - run: npm ci
+      - name: Prepare desktop development runtime
+        run: |
+          npm run astral:prepare-electron
+          node -e "if (!require('node:fs').existsSync(require('electron'))) process.exit(1)"
       - run: npm run astral:build
       - run: npm run astral:typecheck
       - run: npm run astral:lint

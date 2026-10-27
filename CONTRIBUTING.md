@@ -4,7 +4,7 @@ Bug reports, clear reproduction steps, documentation fixes, and focused pull req
 
 ## Development
 
-Use Node.js 22.23.2 or newer. Run npm ci, then npm run astral:build. Browser development uses npm run astral:dev; desktop development also needs npm run astral:prepare-runner -- --backend cpu. The preparation script defaults to CPU. Use --backend cuda, vulkan, or all only when testing those backends.
+Use Node.js 22.23.2 or newer. Run npm ci, then npm run astral:build. Browser development uses npm run astral:dev; desktop development also needs npm run astral:prepare-runner -- --backend cpu. The first `npm run astral:desktop` launch also installs the pinned Electron development runtime; later launches reuse it. CI checks this explicit step after a clean dependency install. The runner preparation script defaults to CPU. Use --backend cuda, vulkan, or all only when testing those backends.
 
 Keep chat data and model files outside Git. Use ASTRAL_DATA_ROOT for isolated test data and ASTRAL_TEST_USER_DATA for Electron tests. Never submit logs containing messages, profiles, images, local credentials, or model-server keys.
 
