@@ -47,9 +47,9 @@ test('new user can start a real SillyTavern story, edit memory, save and return 
     await page.locator('.nav-item').filter({ hasText: 'Characters' }).click();
     await expect(page.getByRole('button', { name: /NSFW/ })).toHaveCount(0);
     await expect(page.locator('.character-card')).toHaveCount(8);
-    await expect(page.getByRole('heading', { name: 'Hina', exact: true })).toBeVisible();
+    await expect(page.locator('.character-card').getByRole('heading', { name: 'Hina', exact: true })).toBeVisible();
     await page.reload();
-    await expect(page.getByRole('heading', { name: 'Hina', exact: true })).toBeVisible();
+    await expect(page.locator('.character-card').getByRole('heading', { name: 'Hina', exact: true })).toBeVisible();
     expect(errors).toEqual([]);
 });
 test('small screens and reduced motion retain usable navigation and character editing', async ({ page }) => {
