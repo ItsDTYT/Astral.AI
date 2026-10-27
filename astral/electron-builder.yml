@@ -1,0 +1,67 @@
+appId: ai.astral.desktop
+productName: Astral.AI
+asar: true
+asarUnpack:
+    - '**/*.node'
+electronFuses:
+    runAsNode: false
+    enableNodeOptionsEnvironmentVariable: false
+    enableNodeCliInspectArguments: false
+    enableEmbeddedAsarIntegrityValidation: true
+    onlyLoadAppFromAsar: true
+extraMetadata:
+    main: astral/desktop/main.cjs
+    name: astral-ai
+    description: Private local roleplay with a visual-novel interface, built on SillyTavern
+    author: Astral.AI contributors
+directories:
+    output: release
+files:
+    - server.js
+    - plugins.js
+    - webpack.config.js
+    - src/**
+    - public/**
+    - default/**
+    - package.json
+    - LICENSE
+    - ASTRAL-README.md
+    - DESIGN.md
+    - astral/desktop/**
+    - astral/shared/**
+    - astral/resources/characters.json
+    - astral/resources/models.lock.json
+    - astral/resources/runner.lock.json
+    - astral/resources/icon.*
+    - astral/resources/upstream-lib.js
+    - astral/THIRD-PARTY-NOTICES.md
+    - astral/ARTWORK.md
+    - astral/VALIDATION.md
+    - astral/SECURITY-AUDIT.md
+    - astral/licenses/**
+    - astral/ui/vendor/LIQUID-GLASS-LICENSE.txt
+    - node_modules/**
+    - '!public/astral/**/*.map'
+extraResources:
+    - from: astral/resources/runner
+      to: runner
+      filter:
+          - 'cpu/**'
+          - 'manifest.json'
+          - 'msvc-runtime.json'
+win:
+    artifactName: Astral.AI-${version}-${arch}-portable.${ext}
+    target:
+        - target: nsis
+          arch: [x64]
+        - target: zip
+          arch: [x64]
+    signExecutable: false
+    icon: astral/resources/icon.ico
+nsis:
+    artifactName: Astral.AI-${version}-${arch}-setup.${ext}
+    oneClick: false
+    allowToChangeInstallationDirectory: true
+    deleteAppDataOnUninstall: false
+portable:
+    artifactName: Astral.AI-${version}-${arch}-portable.${ext}

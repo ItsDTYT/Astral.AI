@@ -1,0 +1,35 @@
+/* All chrome, including interaction states, uses the resolved palette. */
+:host { --bg:#18181b; --surface:#242428; --raised:#303036; --ink:#f4f4f5; --muted:#c0c0c8; --accent:#bdbdcf; --accent-ink:#101010; --line:#45454f; --line-strong:#73737f; --focus:#bdbdcf; --accent-text:#d2d2e0; --shadow:#000000; --overlay:#08080b; --hover:#38383e; --pressed:#424249; --danger:#f6abae; --danger-surface:#352229; --danger-line:#a34d5a; --success:#b5d9bc; --disabled:#c0c0c8; }
+.app { color-scheme:inherit; }
+.app :focus-visible { outline-color:var(--focus); }
+.app input:hover,.app textarea:hover,.app select:hover { border-color:var(--line-strong); }
+.app .button:hover:not(:disabled),.app .send-button:hover:not(:disabled) { background:var(--accent); filter:none; box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent-ink) 35%,transparent); }
+.app .button.secondary:hover:not(:disabled),.app .button.light:hover:not(:disabled),.app .icon-button:hover:not(:disabled),.app .nav-item:hover { background:var(--hover); filter:none; }
+.app .button:active:not(:disabled),.app .icon-button:active:not(:disabled),.app .nav-item:active { box-shadow:inset 0 0 0 2px var(--focus); }
+.app .button.secondary:active:not(:disabled),.app .nav-item.active { background:var(--pressed); }
+.app button:disabled { opacity:1; color:var(--disabled); background:var(--raised); border-color:var(--line); }
+.app button.icon-button:disabled,.app button.text-button:disabled { background:transparent; }
+.app .recommendation-label,.app .conversion-warning { color:var(--accent-text); }
+.app .inline-error,.app .runner-error p,.app .error-banner,.app .error-banner p,.app .error-banner .icon-button { color:var(--danger); }
+.app .runner-error,.app .error-banner { background:var(--danger-surface); border-color:var(--danger-line); }
+.app .success-note { color:var(--success); }
+.app .status-dot.online { background:var(--success); }
+.app .status-dot.loading { background:var(--accent-text); }
+.app ::selection { background:var(--accent); color:var(--accent-ink); }
+.app ::-webkit-scrollbar-thumb { background:var(--line-strong); border:3px solid var(--bg); }
+.app ::-webkit-scrollbar-track { background:var(--bg); }
+.app progress { accent-color:var(--accent); }
+.sidebar .brand-mark { position:relative; }
+.liquid-emblem { position:absolute; inset:0; width:33px; height:38px; }
+.liquid-emblem canvas { display:block; width:100%; height:100%; }
+.app:has(.liquid-emblem canvas) .sidebar .brand-mark svg { visibility:hidden; }
+.featured-v3 .featured-image img.portrait-art { object-fit:cover; object-position:50% 0; }
+.scene-art img.portrait-art { opacity:1; }
+.editor-art img.portrait-art { object-fit:contain; object-position:50% 0; }
+.app[data-background=plain] .scene-background:after { opacity:0; }
+.scene-location { align-self:flex-start; max-width:100%; background:var(--surface); color:var(--muted); padding:5px 10px; border:1px solid var(--line); border-radius:6px; text-shadow:none; font-size:max(11px, calc(11px * var(--ui-scale))); }
+@media(min-width:1100px) and (min-height:650px) {
+ .chat-scene:not(.with-transcript) .dialogue-area { width:58%; margin-left:22px; margin-right:auto; }
+ .chat-scene:not(.with-transcript) .scene-art:has(img.portrait-art) { left:60%; right:16px; }
+ .chat-scene:not(.with-transcript) .scene-art img.portrait-art { object-position:50% 100%; }
+}

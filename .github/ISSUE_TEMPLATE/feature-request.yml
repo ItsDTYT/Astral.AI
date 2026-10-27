@@ -1,0 +1,14 @@
+name: Feature request
+description: Suggest a change to Astral.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help you do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested change
+      description: Describe the behavior and any alternatives you have tried.

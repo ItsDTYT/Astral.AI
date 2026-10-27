@@ -1,0 +1,474 @@
+[
+  {
+    "id": "gemma-e2b-q4",
+    "name": "Gemma 4 E2B",
+    "repo": "unsloth/gemma-4-E2B-it-GGUF",
+    "revision": "0314792d7f1f7e229411f620751375812bb9faf2",
+    "filename": "gemma-4-E2B-it-Q4_K_M.gguf",
+    "sourceFilename": "gemma-4-E2B-it-Q4_K_M.gguf",
+    "bytes": 3106738272,
+    "sha256": "740185b21d22ceb83a11c3aa62ad5842ef32c70f6096d756bbee85a1e4ec34b8",
+    "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/0314792d7f1f7e229411f620751375812bb9faf2/gemma-4-E2B-it-Q4_K_M.gguf",
+    "projector": {
+      "filename": "gemma-e2b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 985654080,
+      "sha256": "140be8d7849741f88c50757d529b84373ee8e27052cc2236855b537f4a8215fa",
+      "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/0314792d7f1f7e229411f620751375812bb9faf2/mmproj-F16.gguf"
+    },
+    "quant": "Q4_K_M",
+    "tierGiB": 4,
+    "minRamGiB": 8,
+    "defaultContext": 2048,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 4 GB graphics-memory starting profile. 8 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ],
+    "validation": {
+      "date": "2026-10-25",
+      "hardware": "RTX 4060 Laptop 8 GB / 16 GB RAM",
+      "runner": "b11669",
+      "backend": "CUDA",
+      "text": true,
+      "vision": true,
+      "context": 2048,
+      "generation": {
+        "temperature": 1,
+        "topP": 0.95,
+        "topK": 64,
+        "minP": 0,
+        "repetitionPenalty": 1
+      },
+      "managedPipeline": false
+    }
+  },
+  {
+    "id": "gemma-e4b-q4",
+    "name": "Gemma 4 E4B",
+    "repo": "unsloth/gemma-4-E4B-it-GGUF",
+    "revision": "bfc15c382204943c3a8fff0c750b94ae2364d7a3",
+    "filename": "gemma-4-E4B-it-Q4_K_M.gguf",
+    "sourceFilename": "gemma-4-E4B-it-Q4_K_M.gguf",
+    "bytes": 4977171584,
+    "sha256": "85a896a047553e842f25297ee5b031d64ff30147d9c4af17b1e4b394cd1fab87",
+    "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/bfc15c382204943c3a8fff0c750b94ae2364d7a3/gemma-4-E4B-it-Q4_K_M.gguf",
+    "projector": {
+      "filename": "gemma-e4b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 990372672,
+      "sha256": "ddf46c21d7078e95338cfc22306b19b276a29a5ad089023449dd54d4b6170a51",
+      "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/bfc15c382204943c3a8fff0c750b94ae2364d7a3/mmproj-F16.gguf"
+    },
+    "quant": "Q4_K_M",
+    "tierGiB": 6,
+    "minRamGiB": 12,
+    "defaultContext": 4096,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 6 GB graphics-memory starting profile. 12 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "gemma-12b-iq4",
+    "name": "Gemma 4 12b",
+    "repo": "unsloth/gemma-4-12b-it-GGUF",
+    "revision": "fc034cfff751157913579611efad8462ac1be606",
+    "filename": "gemma-4-12b-it-IQ4_XS.gguf",
+    "sourceFilename": "gemma-4-12b-it-IQ4_XS.gguf",
+    "bytes": 6375734080,
+    "sha256": "b0037d0e0de0290177045ca214b2a0fb1079d18bde57842b3ca32f5b0cd76774",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/fc034cfff751157913579611efad8462ac1be606/gemma-4-12b-it-IQ4_XS.gguf",
+    "projector": {
+      "filename": "gemma-12b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 175115840,
+      "sha256": "91f086971e56d7a7d8d39e271873fccdb49541bd259d6e02c401a4f1cb7a219e",
+      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/fc034cfff751157913579611efad8462ac1be606/mmproj-F16.gguf"
+    },
+    "quant": "IQ4_XS",
+    "tierGiB": 8,
+    "minRamGiB": 16,
+    "defaultContext": 4096,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 8 GB graphics-memory starting profile. 16 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ],
+    "validation": {
+      "date": "2026-10-25",
+      "hardware": "RTX 4060 Laptop 8 GB / 16 GB RAM",
+      "runner": "b11669",
+      "backend": "CUDA",
+      "text": true,
+      "vision": true,
+      "context": 2048,
+      "generation": {
+        "temperature": 1,
+        "topP": 0.95,
+        "topK": 64,
+        "minP": 0,
+        "repetitionPenalty": 1
+      },
+      "managedPipeline": true
+    }
+  },
+  {
+    "id": "gemma-12b-q4",
+    "name": "Gemma 4 12b",
+    "repo": "unsloth/gemma-4-12b-it-GGUF",
+    "revision": "fc034cfff751157913579611efad8462ac1be606",
+    "filename": "gemma-4-12b-it-Q4_K_M.gguf",
+    "sourceFilename": "gemma-4-12b-it-Q4_K_M.gguf",
+    "bytes": 7121861440,
+    "sha256": "0a270ec9fe6b34f4a0d33992b6135117b484ebc4766ab76b51d4ae8c457e4c42",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/fc034cfff751157913579611efad8462ac1be606/gemma-4-12b-it-Q4_K_M.gguf",
+    "projector": {
+      "filename": "gemma-12b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 175115840,
+      "sha256": "91f086971e56d7a7d8d39e271873fccdb49541bd259d6e02c401a4f1cb7a219e",
+      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/fc034cfff751157913579611efad8462ac1be606/mmproj-F16.gguf"
+    },
+    "quant": "Q4_K_M",
+    "tierGiB": 10,
+    "minRamGiB": 16,
+    "defaultContext": 4096,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 10 GB graphics-memory starting profile. 16 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "gemma-12b-q6",
+    "name": "Gemma 4 12b",
+    "repo": "unsloth/gemma-4-12b-it-GGUF",
+    "revision": "fc034cfff751157913579611efad8462ac1be606",
+    "filename": "gemma-4-12b-it-Q6_K.gguf",
+    "sourceFilename": "gemma-4-12b-it-Q6_K.gguf",
+    "bytes": 9786022720,
+    "sha256": "6f394336500bb5409bd68c31aa9d75097b5e6104f6cf30c82a09a7b64df41faf",
+    "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/fc034cfff751157913579611efad8462ac1be606/gemma-4-12b-it-Q6_K.gguf",
+    "projector": {
+      "filename": "gemma-12b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 175115840,
+      "sha256": "91f086971e56d7a7d8d39e271873fccdb49541bd259d6e02c401a4f1cb7a219e",
+      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/fc034cfff751157913579611efad8462ac1be606/mmproj-F16.gguf"
+    },
+    "quant": "Q6_K",
+    "tierGiB": 12,
+    "minRamGiB": 16,
+    "defaultContext": 4096,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 12 GB graphics-memory starting profile. 16 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "gemma-26b-qat",
+    "name": "Gemma 4 26B-A4B",
+    "repo": "unsloth/gemma-4-26B-A4B-it-qat-GGUF",
+    "revision": "7b92b5b28818151e8669af2e45e88d6086f490dd",
+    "filename": "gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf",
+    "sourceFilename": "gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf",
+    "bytes": 14249047104,
+    "sha256": "a7c5bc715f5ff8e99a3e8901ce7d2b42b402c669bf24f7c5250747633d0f5891",
+    "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF/resolve/7b92b5b28818151e8669af2e45e88d6086f490dd/gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf",
+    "projector": {
+      "filename": "gemma-26b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 1193058784,
+      "sha256": "d00f211a7d4f7fb19bd9b75d8e9342eccffb5920b08fd9562167560fdfcc5dd1",
+      "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF/resolve/7b92b5b28818151e8669af2e45e88d6086f490dd/mmproj-F16.gguf"
+    },
+    "quant": "UD-Q4_K_XL",
+    "tierGiB": 16,
+    "minRamGiB": 32,
+    "defaultContext": 8192,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 16 GB graphics-memory starting profile. 32 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "gemma-31b-q4",
+    "name": "Gemma 4 31B",
+    "repo": "unsloth/gemma-4-31B-it-GGUF",
+    "revision": "c1ac76e99d5513b141e8adde7288b85c3f9c32ec",
+    "filename": "gemma-4-31B-it-Q4_K_M.gguf",
+    "sourceFilename": "gemma-4-31B-it-Q4_K_M.gguf",
+    "bytes": 18323733440,
+    "sha256": "38bd64c852c4b460434cc7162fa9bdcf242faf86502581a754cb72956bb17f84",
+    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/c1ac76e99d5513b141e8adde7288b85c3f9c32ec/gemma-4-31B-it-Q4_K_M.gguf",
+    "projector": {
+      "filename": "gemma-31b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 1198957024,
+      "sha256": "6edcca228213c28d3567a35d22f849eea52d8360875093851959adf5d2f270eb",
+      "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/c1ac76e99d5513b141e8adde7288b85c3f9c32ec/mmproj-F16.gguf"
+    },
+    "quant": "Q4_K_M",
+    "tierGiB": 24,
+    "minRamGiB": 32,
+    "defaultContext": 8192,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 24 GB graphics-memory starting profile. 32 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "gemma-31b-q6",
+    "name": "Gemma 4 31B",
+    "repo": "unsloth/gemma-4-31B-it-GGUF",
+    "revision": "c1ac76e99d5513b141e8adde7288b85c3f9c32ec",
+    "filename": "gemma-4-31B-it-Q6_K.gguf",
+    "sourceFilename": "gemma-4-31B-it-Q6_K.gguf",
+    "bytes": 25201486784,
+    "sha256": "4660692bca96f1d9d19c550641088789c8c0c25bb07965a1e2798e3cb16885fb",
+    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/c1ac76e99d5513b141e8adde7288b85c3f9c32ec/gemma-4-31B-it-Q6_K.gguf",
+    "projector": {
+      "filename": "gemma-31b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 1198957024,
+      "sha256": "6edcca228213c28d3567a35d22f849eea52d8360875093851959adf5d2f270eb",
+      "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/c1ac76e99d5513b141e8adde7288b85c3f9c32ec/mmproj-F16.gguf"
+    },
+    "quant": "Q6_K",
+    "tierGiB": 32,
+    "minRamGiB": 32,
+    "defaultContext": 8192,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 32 GB graphics-memory starting profile. 32 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "gemma-31b-q8",
+    "name": "Gemma 4 31B",
+    "repo": "unsloth/gemma-4-31B-it-GGUF",
+    "revision": "c1ac76e99d5513b141e8adde7288b85c3f9c32ec",
+    "filename": "gemma-4-31B-it-Q8_0.gguf",
+    "sourceFilename": "gemma-4-31B-it-Q8_0.gguf",
+    "bytes": 32635677632,
+    "sha256": "d5808e5874e660a85ab45b2da00c9e3b4a003621249a333772232d1a703e4d67",
+    "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/c1ac76e99d5513b141e8adde7288b85c3f9c32ec/gemma-4-31B-it-Q8_0.gguf",
+    "projector": {
+      "filename": "gemma-31b-mmproj-F16.gguf",
+      "sourceFilename": "mmproj-F16.gguf",
+      "bytes": 1198957024,
+      "sha256": "6edcca228213c28d3567a35d22f849eea52d8360875093851959adf5d2f270eb",
+      "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/c1ac76e99d5513b141e8adde7288b85c3f9c32ec/mmproj-F16.gguf"
+    },
+    "quant": "Q8_0",
+    "tierGiB": 48,
+    "minRamGiB": 32,
+    "defaultContext": 16384,
+    "protocol": "chat",
+    "template": "gguf",
+    "capabilities": {
+      "vision": true
+    },
+    "generation": {
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "minP": 0,
+      "repetitionPenalty": 1
+    },
+    "description": "Balanced 48 GB graphics-memory starting profile. 32 GB system RAM recommended. Image support included.",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+    "researchedAt": "2026-10-25",
+    "fitConfidence": "estimated",
+    "research": [
+      "https://www.reddit.com/r/SillyTavernAI/comments/1wxsier/megathread_best_modelsapi_discussion_week_of/"
+    ]
+  },
+  {
+    "id": "angelic-iq4_xs",
+    "name": "Angelic Eclipse 12B",
+    "repo": "mradermacher/Angelic_Eclipse_12B-i1-GGUF",
+    "revision": "9cb0df29d63790f6b739273f9badda63051014ca",
+    "filename": "Angelic_Eclipse_12B.i1-IQ4_XS.gguf",
+    "quant": "IQ4_XS",
+    "bytes": 6742724352,
+    "sha256": "2aca903d58e56da9b0db91e2ea315d8a33528888f567206279dbd5d426db7a1b",
+    "url": "https://huggingface.co/mradermacher/Angelic_Eclipse_12B-i1-GGUF/resolve/9cb0df29d63790f6b739273f9badda63051014ca/Angelic_Eclipse_12B.i1-IQ4_XS.gguf",
+    "template": "chatml",
+    "description": "Thoughtful, grounded roleplay. Suggested starting point for Normal mode.",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/mradermacher/Angelic_Eclipse_12B-i1-GGUF"
+  },
+  {
+    "id": "angelic-q4_k_m",
+    "name": "Angelic Eclipse 12B",
+    "repo": "mradermacher/Angelic_Eclipse_12B-i1-GGUF",
+    "revision": "9cb0df29d63790f6b739273f9badda63051014ca",
+    "filename": "Angelic_Eclipse_12B.i1-Q4_K_M.gguf",
+    "quant": "Q4_K_M",
+    "bytes": 7477219392,
+    "sha256": "fd337e64d03fa9171a8185cdca1f0c509d0be9dd00187c2bb12f8dadebe2d565",
+    "url": "https://huggingface.co/mradermacher/Angelic_Eclipse_12B-i1-GGUF/resolve/9cb0df29d63790f6b739273f9badda63051014ca/Angelic_Eclipse_12B.i1-Q4_K_M.gguf",
+    "template": "chatml",
+    "description": "Thoughtful, grounded roleplay. Suggested starting point for Normal mode.",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/mradermacher/Angelic_Eclipse_12B-i1-GGUF"
+  },
+  {
+    "id": "forgotten-iq4_xs",
+    "name": "Forgotten Safeword 12B",
+    "repo": "mradermacher/Forgotten-Safeword-12B-v4.0-i1-GGUF",
+    "revision": "7ab6b3a955dd14612abc213769d73fb8c56a4d65",
+    "filename": "Forgotten-Safeword-12B-v4.0.i1-IQ4_XS.gguf",
+    "quant": "IQ4_XS",
+    "bytes": 6742713952,
+    "sha256": "defdba5fc1197f5bc142677bd614a72a0215057a2319f777fcf5be91c512f744",
+    "url": "https://huggingface.co/mradermacher/Forgotten-Safeword-12B-v4.0-i1-GGUF/resolve/7ab6b3a955dd14612abc213769d73fb8c56a4d65/Forgotten-Safeword-12B-v4.0.i1-IQ4_XS.gguf",
+    "template": "auto",
+    "description": "Character-driven roleplay with a verified Mistral instruction preset.",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/mradermacher/Forgotten-Safeword-12B-v4.0-i1-GGUF"
+  },
+  {
+    "id": "forgotten-q4_k_m",
+    "name": "Forgotten Safeword 12B",
+    "repo": "mradermacher/Forgotten-Safeword-12B-v4.0-i1-GGUF",
+    "revision": "7ab6b3a955dd14612abc213769d73fb8c56a4d65",
+    "filename": "Forgotten-Safeword-12B-v4.0.i1-Q4_K_M.gguf",
+    "quant": "Q4_K_M",
+    "bytes": 7477208672,
+    "sha256": "6308b5f6196bd51e30e85c1e2b0faf98f3ebf266a045940b4b21d2fa5c9c2c9b",
+    "url": "https://huggingface.co/mradermacher/Forgotten-Safeword-12B-v4.0-i1-GGUF/resolve/7ab6b3a955dd14612abc213769d73fb8c56a4d65/Forgotten-Safeword-12B-v4.0.i1-Q4_K_M.gguf",
+    "template": "auto",
+    "description": "Character-driven roleplay with a verified Mistral instruction preset.",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/mradermacher/Forgotten-Safeword-12B-v4.0-i1-GGUF"
+  }
+]

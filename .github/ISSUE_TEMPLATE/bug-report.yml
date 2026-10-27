@@ -1,0 +1,29 @@
+name: Bug report
+description: Something is not working as expected.
+body:
+  - type: markdown
+    attributes:
+      value: Please leave out private chats, profile details, images, credentials, and full local paths.
+  - type: input
+    id: version
+    attributes:
+      label: Astral version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, what happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Windows version, installed/portable build, GPU/RAM, and model name if relevant.
+  - type: textarea
+    id: ui
+    attributes:
+      label: For layout problems
+      description: Window size, Windows display scaling, Astral interface size, theme, and a redacted screenshot.

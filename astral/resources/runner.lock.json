@@ -1,0 +1,34 @@
+{
+  "version": "b11669",
+  "source": "https://github.com/ggml-org/llama.cpp",
+  "artifacts": [
+    {
+      "backend": "cpu",
+      "name": "llama-b11669-bin-win-cpu-x64.zip",
+      "sha256": "37b3efcf962847ca869745fd4ccf7f5e7e8dacfeff9fa3523b4ca8cdc66d632b",
+      "bytes": 19537886,
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cpu-x64.zip"
+    },
+    {
+      "backend": "cuda",
+      "name": "llama-b11669-bin-win-cuda-12.4-x64.zip",
+      "sha256": "c2da1f73ed176ae093ac5aceb978a7b167a16113f6d74c6789eeaee2135cb8dc",
+      "bytes": 266582698,
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "backend": "cuda",
+      "name": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "bytes": 391443627,
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/cudart-llama-bin-win-cuda-12.4-x64.zip"
+    },
+    {
+      "backend": "vulkan",
+      "name": "llama-b11669-bin-win-vulkan-x64.zip",
+      "sha256": "2c07574e7bde71321cb785282b20cc821e951132149eeceeea32ddebdbf0598e",
+      "bytes": 32182350,
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-vulkan-x64.zip"
+    }
+  ]
+}

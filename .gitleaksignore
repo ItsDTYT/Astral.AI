@@ -1,0 +1,2 @@
+# Reviewed false positive in unchanged upstream Kokoro tokenizer code: "ocab=new Array(this.tokens_".
+public/scripts/extensions/tts/lib/kokoro.web.js:generic-api-key:1
