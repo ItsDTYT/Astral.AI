@@ -157,7 +157,7 @@ main { display:flex; flex-direction:column; min-height:0; overflow:hidden; }
 .toggle-row { min-height:44px; }
 .toggle-row input { flex-shrink:0; }
 .toggle-row:has(input:focus-visible) { outline:2px solid var(--focus); outline-offset:4px; border-radius:4px; }
-.settings-page .page-heading h1,.help-page .page-heading h1,.profiles-page .page-heading h1 { font-family:'Outfit',sans-serif; font-size:calc(30px * var(--ui-scale)); }
+.page:not(.library) .page-heading h1 { font-family:'Outfit',sans-serif; font-size:calc(30px * var(--ui-scale)); }
 .page-heading:has(.eyebrow:empty) .eyebrow { display:none; }
 .page-heading { flex-wrap:wrap; }
 .page-heading > div { min-width:0; }
@@ -169,3 +169,5 @@ main { display:flex; flex-direction:column; min-height:0; overflow:hidden; }
 
 .sidebar > * { flex-shrink:0; }
 .settings-section .toggle-row { margin:0; }
+
+.page:not(.library) .page-heading .eyebrow { display:none; }
