@@ -41,7 +41,7 @@ test('new user can start a real SillyTavern story, edit memory, save and return 
     await expect(page.locator('.memory-card')).toContainText('green tea');
     await page.getByRole('button', { name: 'Chats', exact: false }).first().click();
     await page.getByRole('button', { name: 'Create save point', exact: true }).click();
-    await page.getByRole('textbox', { name: 'Name this moment' }).fill('The studio');
+    await page.getByRole('textbox', { name: 'Save point name' }).fill('The studio');
     await page.getByRole('button', { name: 'Create save point', exact: true }).last().click();
     await expect(page.getByRole('status').filter({ hasText: 'Save point created' })).toBeVisible();
     await page.locator('.nav-item').filter({ hasText: 'Characters' }).click();

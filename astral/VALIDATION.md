@@ -2,7 +2,7 @@
 
 ## 0.3.2 publication checks — 27 October 2026
 
-Local checks pass: 36 Node tests, TypeScript, server/shared/desktop ESLint, production UI build and desktop lifecycle tests. The two new browser checks cover keyboard file selection, aligned field bounds, switch track/thumb geometry, summary persistence and reachable actions in short enlarged windows. Existing chat, image, card, backup, profile, memory and drafting scenarios remain part of CI.
+Local checks pass: 36 Node tests, TypeScript, server/shared/desktop ESLint, production UI build and desktop lifecycle tests. The two new browser checks cover keyboard file selection, aligned field bounds, switch track/thumb geometry, summary persistence and reachable actions in short enlarged windows. The first fresh Windows CI run passes all 12 browser scenarios, including chat, image, card, backup, profile, memory and drafting checks: https://github.com/ItsDTYT/Astral.AI/actions/runs/40582208646. Release checks run again from the final tag.
 
 The visual sweep checks 168 screen/size/scale combinations: seven utility screens at 2229×1264, 1515×727, 1366×768, 960×540, 640×480 and 390×844, each at 75%, 100%, 125% and 150% interface size, with light/dark themes and both densities represented. Editor Save controls are checked at each combination. These are logical viewport simulations, not physical mixed-DPI transitions. Native CPU/GPU qualification and clean Windows VM availability are reported separately in the release notes.
 

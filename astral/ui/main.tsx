@@ -600,9 +600,9 @@ function App() {
                     (!current || !character ? (
                         <section className="page">
                             <PageTitle
-                                eyebrow="YOUR STORIES"
-                                title="Your chats"
-                                description="Pick up where you left off, or begin somewhere new."
+                                eyebrow=""
+                                title="Chats"
+                                description="Continue a chat or start a new one."
                             />
                             <div className="story-list">
                                 {conversations.map((chat) => {
@@ -728,7 +728,7 @@ function App() {
                                             <span className="muted-count">{memoryList.length}</span>
                                         </h2>
                                         <p>
-                                            Character facts follow them across stories. Story facts stay here.
+                                            Character facts follow this character within your profile. Story facts stay in this chat.
                                         </p>
                                     </div>
                                     <button
@@ -835,8 +835,7 @@ function App() {
                                         <Brain />
                                         <h3>No memories yet.</h3>
                                         <p>
-                                            Facts will appear as your story develops. You can also write one
-                                            yourself.
+                                            Add a fact here, or turn on automatic memory to save details from your chats.
                                         </p>
                                     </div>
                                 )}
@@ -1187,8 +1186,7 @@ function App() {
                         <img src="/astral/art/v4/hina.png" alt="Hina, the painter" />
                     </div>
                     <p>
-                        Welcome to Astral. A place for characters, conversations, and a little imagination—all
-                        on your own computer.
+                        Choose a model, pick a character, and start a chat. The guided setup will help you get started.
                     </p>
                     <div className="welcome-points">
                         <span>
@@ -1337,7 +1335,7 @@ function App() {
                         }}
                     >
                         <label>
-                            Name this moment
+                            Save point name
                             <input
                                 name="name"
                                 required
@@ -1354,7 +1352,7 @@ function App() {
                 </Modal>
             )}
             {showSaves && current && (
-                <Modal title="Return to a moment." close={() => setShowSaves(false)}>
+                <Modal title="Save points" close={() => setShowSaves(false)}>
                     {state.checkpoints
                         .filter((cp) => cp.conversationId === current.id)
                         .map((cp) => (

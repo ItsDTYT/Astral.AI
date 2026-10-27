@@ -53,7 +53,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for checks and development notes, [UPSTRE
 
 **ItsDT — Creator & product direction.** Astral builds on the work of the SillyTavern and llama.cpp contributors.
 
-AI tools helped with code, interface design, and documentation. Character portraits and backgrounds were generated with AI. Some UI elements were created with AI assistance. This acknowledgement describes how the project was made; it does not replace the upstream credits or imply an independent security review.
+AI tools helped with code, interface design, and documentation. Character portraits and backgrounds were generated with AI. Some UI elements were created with AI assistance.
 
 Artwork references are in [ARTWORK.md](astral/ARTWORK.md). Dependency credits and licenses are in [THIRD-PARTY-NOTICES.md](astral/THIRD-PARTY-NOTICES.md).
 
