@@ -49,16 +49,13 @@ For browser development, run `npm run astral:dev` and open http://127.0.0.1:8000
 
 `npm run astral:package` builds the unsigned Windows installer, portable ZIP, source archive, and checksums into release/. It expects the CPU runner to be prepared first. GPU runners are not bundled.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for checks and development notes, [UPSTREAM.md](UPSTREAM.md) for the SillyTavern base, and [SECURITY.md](SECURITY.md) to report a vulnerability. For bugs and ideas, use [Issues](https://github.com/ItsDTYT/Astral.AI/issues).
-
 ## Credits and AI assistance
 
-**ItsDT — Creator & product direction.** Astral builds on the work of the SillyTavern and llama.cpp contributors.
+**ItsDT - Creator & product direction.** Astral builds on the work of the SillyTavern and llama.cpp contributors.
 
 AI tools helped with code, interface design, and documentation. Character portraits and backgrounds were generated with AI. Some UI elements were created with AI assistance.
 
-Artwork references are in [ARTWORK.md](astral/ARTWORK.md). Dependency credits and licenses are in [THIRD-PARTY-NOTICES.md](astral/THIRD-PARTY-NOTICES.md).
-
 ## License
 
+Dependency credits and licenses are in [THIRD-PARTY-NOTICES.md](astral/THIRD-PARTY-NOTICES.md).
 Astral.AI uses the [AGPL-3.0 license](LICENSE), inherited from SillyTavern. Existing copyright and third-party license notices remain in the source.
